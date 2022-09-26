@@ -1,0 +1,91 @@
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+      -moz-appearance: textfield;
+  }
+
+  h1 {
+      color: black;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+      font-size: 50px;
+      margin-bottom:0px;
+  }
+
+  .footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    margin-bottom:30px;
+  }
+
+  html {
+    height:100%;
+  }
+
+  body {
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(226,182,254,1) 100%);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      color: black;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .content {
+    flex: 1 0 auto;
+  }
+
+  .district {
+      text-align: center;
+      font-size: 70px;
+  }
+
+  .description {
+      text-align: center;
+  }
+
+  .welcome-text {
+      margin: 5px;
+  }
+
+  button {
+      display: block;
+      margin: 0 auto;
+      background-color: #00fdcb;
+      border-style: solid;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+
+  }
+
+  .inp {
+      border-radius: 5px;
+      background-color: #6417ff;
+      border-style: solid;
+      border: none;
+      height: 20px;
+      margin-top: 10px;
+      color: whitesmoke;
+  }
+
+  .inner {
+      padding: 10px;
+      background-color: #7a46e1;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }

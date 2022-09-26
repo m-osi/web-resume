@@ -11,33 +11,46 @@
   }
 
   h1 {
-      color: black;
-      text-align: left;
+      color: whitesmoke;
+      text-align: center;
       font-family: 'Open Sans', sans-serif;
-      font-weight:300;
-      font-size: 60px;
-      margin-bottom:0px;
+      font-weight: 500;
+      font-size: 80px;
+      line-height:0.9;
   }
+
+
 
   .footer {
     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    padding: 20px;
-    margin-bottom:30px;
+    top: 50%;
+    left: 50%;
+    position:fixed;
+    text-align:center;
+    color: whitesmoke;
   }
 
   html {
     height:100%;
   }
 
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
   body {
-      background: rgb(255,255,255);
-      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(226,182,254,1) 100%);
+    background-image: url("image.jpg");
       height: 100%;
       background-repeat: no-repeat;
       background-attachment: fixed;
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
-      color: black;
+      color: whitesmoke;
       margin: 10px;
       display: flex;
       flex-direction: column;
@@ -47,6 +60,16 @@
     flex: 1 0 auto;
     text-align: right;
   }
+
+  .contents {
+    top: 50%;
+    left: 50%;
+    position:fixed;
+    text-align:center;
+    color: whitesmoke;
+    transform: translate(-50%, -50%);
+  }
+  
 
   .district {
       text-align: center;
@@ -60,6 +83,11 @@
   .welcome-text {
       margin: 5px;
       font-size: 20px; 
+      margin-top:20px;
+  }
+
+  p {
+    margin:0px;
   }
 
   ul {
@@ -86,13 +114,13 @@
   }
   
   a {
-    color: black;
+    color: whitesmoke;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     padding: 15px 20px;
     position: relative;
-    box-shadow: inset 0 -2px 0 rgba(187, 0, 255, 0.5), 0 2px 0 rgba(187, 0, 255, 0.5);
+    box-shadow: inset 0 -2px 0 #bb00ff80, 0 2px 0 rgba(187, 0, 255);
     transition: box-shadow .3s;
     color: inherit;
     overflow: hidden;
@@ -105,5 +133,5 @@
 
   
   a:hover {
-    box-shadow: inset 0 -50px 0 rgba(187, 0, 255, 0.5), 0 2px 0 rgba(187, 0, 255, 0.5);
+    box-shadow: inset 0 -50px 0 rgba(187, 0, 255), 0 2px 0 rgba(187, 0, 255);
   }

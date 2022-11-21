@@ -95,17 +95,23 @@
     margin: auto;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     text-align: right;
     padding: 0;     
-    max-width: 600px;
+    /* max-width: 600px; */
     float: right;
   }
   
   @media screen and (min-width: 600px) {
       ul {
-          flex-direction: row;
+          text-align: center;
+          float: center;
+          max-width: 100%;
+      }
+      .content {
+        flex: 1 0 auto;
+        text-align: center;
       }
   }
   
